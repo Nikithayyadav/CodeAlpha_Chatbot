@@ -2,7 +2,7 @@ def chatbot():
     print("🤖 Chatbot: Hi! I'm a simple bot. Type 'bye' to exit.")
 
     while True:
-        user_input = input("You: ").lower()
+        user_input = input("You: ").lower() 
 
         if user_input == "hello":
             print("🤖 Chatbot: Hi there!")
